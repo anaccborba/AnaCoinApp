@@ -11,7 +11,10 @@ Este aplicativo consulta a **CoinAPI** e exibe uma lista de exchanges de criptom
 - **SwiftUI** - Interface declarativa  
 - **VIPER** - Arquitetura modular e escalável  
 - **CoinAPI** - API de dados de exchanges  
-- **Swift Package Manager (SPM)** - Gerenciamento de dependências  
+- **Swift Package Manager (SPM)** - Gerenciamento de dependências
+- **Alamofire** - Biblioteca para requisições HTTP
+- **Lottie** - Biblioteca para animações vetoriais
+- **Localization (Localizable)** - Mecanismo de internacionalização para suporte a múltiplos idiomas no futuro
 
 ---
 
