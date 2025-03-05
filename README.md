@@ -94,7 +94,7 @@ Para utilizar o aplicativo, você precisa de uma **API Key** da **CoinAPI**.
 4. **Abra o projeto no Xcode:**
 
    ```bash
-   open ExchangeListApp.xcodeproj
+   open AnaCoin.xcodeproj
 
 5. **Compile e execute no simulador ou dispositivo real:**
 
