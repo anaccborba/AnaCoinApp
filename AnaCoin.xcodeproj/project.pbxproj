@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6B401602D78C0A800EE471A /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B6B4015F2D78C09C00EE471A /* Secrets.xcconfig */; };
+		B6E351DA2D761C7800DB67AC /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351D92D761C7800DB67AC /* Lottie */; };
+		B6E351DC2D761C7800DB67AC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B6E351DB2D761C7800DB67AC /* Alamofire */; };
+		B6E352422D76456900DB67AC /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = B6E352412D76456900DB67AC /* SnapshotTesting */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6E351332D761BB500DB67AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E3511A2D761BB400DB67AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E351212D761BB400DB67AC;
+			remoteInfo = AnaCoin;
+		};
+		B6E3513D2D761BB500DB67AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E3511A2D761BB400DB67AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E351212D761BB400DB67AC;
+			remoteInfo = AnaCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6B4015F2D78C09C00EE471A /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		B6E351222D761BB400DB67AC /* AnaCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnaCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E351322D761BB500DB67AC /* AnaCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnaCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E3513C2D761BB500DB67AC /* AnaCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnaCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B6B401622D78C13500EE471A /* Exceptions for "AnaCoin" folder in "AnaCoin" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B6E351212D761BB400DB67AC /* AnaCoin */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B6E351242D761BB400DB67AC /* AnaCoin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B6B401622D78C13500EE471A /* Exceptions for "AnaCoin" folder in "AnaCoin" target */,
+			);
+			path = AnaCoin;
+			sourceTree = "<group>";
+		};
+		B6E351352D761BB500DB67AC /* AnaCoinTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnaCoinTests;
+			sourceTree = "<group>";
+		};
+		B6E3513F2D761BB500DB67AC /* AnaCoinUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnaCoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E3511F2D761BB400DB67AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E351DA2D761C7800DB67AC /* Lottie in Frameworks */,
+				B6E351DC2D761C7800DB67AC /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3512F2D761BB500DB67AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E352422D76456900DB67AC /* SnapshotTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E351392D761BB500DB67AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6E351192D761BB400DB67AC = {
+			isa = PBXGroup;
+			children = (
+				B6B4015F2D78C09C00EE471A /* Secrets.xcconfig */,
+				B6E351242D761BB400DB67AC /* AnaCoin */,
+				B6E351352D761BB500DB67AC /* AnaCoinTests */,
+				B6E3513F2D761BB500DB67AC /* AnaCoinUITests */,
+				B6E351D82D761C7800DB67AC /* Frameworks */,
+				B6E351232D761BB400DB67AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E351232D761BB400DB67AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E351222D761BB400DB67AC /* AnaCoin.app */,
+				B6E351322D761BB500DB67AC /* AnaCoinTests.xctest */,
+				B6E3513C2D761BB500DB67AC /* AnaCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E351D82D761C7800DB67AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E351212D761BB400DB67AC /* AnaCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E351462D761BB500DB67AC /* Build configuration list for PBXNativeTarget "AnaCoin" */;
+			buildPhases = (
+				B6E3511E2D761BB400DB67AC /* Sources */,
+				B6E3511F2D761BB400DB67AC /* Frameworks */,
+				B6E351202D761BB400DB67AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B6E351242D761BB400DB67AC /* AnaCoin */,
+			);
+			name = AnaCoin;
+			packageProductDependencies = (
+				B6E351D92D761C7800DB67AC /* Lottie */,
+				B6E351DB2D761C7800DB67AC /* Alamofire */,
+			);
+			productName = AnaCoin;
+			productReference = B6E351222D761BB400DB67AC /* AnaCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6E351312D761BB500DB67AC /* AnaCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E351492D761BB500DB67AC /* Build configuration list for PBXNativeTarget "AnaCoinTests" */;
+			buildPhases = (
+				B6E3512E2D761BB500DB67AC /* Sources */,
+				B6E3512F2D761BB500DB67AC /* Frameworks */,
+				B6E351302D761BB500DB67AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E351342D761BB500DB67AC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6E351352D761BB500DB67AC /* AnaCoinTests */,
+			);
+			name = AnaCoinTests;
+			packageProductDependencies = (
+				B6E352412D76456900DB67AC /* SnapshotTesting */,
+			);
+			productName = AnaCoinTests;
+			productReference = B6E351322D761BB500DB67AC /* AnaCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6E3513B2D761BB500DB67AC /* AnaCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E3514C2D761BB500DB67AC /* Build configuration list for PBXNativeTarget "AnaCoinUITests" */;
+			buildPhases = (
+				B6E351382D761BB500DB67AC /* Sources */,
+				B6E351392D761BB500DB67AC /* Frameworks */,
+				B6E3513A2D761BB500DB67AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E3513E2D761BB500DB67AC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6E3513F2D761BB500DB67AC /* AnaCoinUITests */,
+			);
+			name = AnaCoinUITests;
+			packageProductDependencies = (
+			);
+			productName = AnaCoinUITests;
+			productReference = B6E3513C2D761BB500DB67AC /* AnaCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E3511A2D761BB400DB67AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B6E351212D761BB400DB67AC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B6E351312D761BB500DB67AC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B6E351212D761BB400DB67AC;
+					};
+					B6E3513B2D761BB500DB67AC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B6E351212D761BB400DB67AC;
+					};
+				};
+			};
+			buildConfigurationList = B6E3511D2D761BB400DB67AC /* Build configuration list for PBXProject "AnaCoin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E351192D761BB400DB67AC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B6E351D62D761C5700DB67AC /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				B6E351D72D761C6100DB67AC /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B6E352402D76456200DB67AC /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B6E351232D761BB400DB67AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E351212D761BB400DB67AC /* AnaCoin */,
+				B6E351312D761BB500DB67AC /* AnaCoinTests */,
+				B6E3513B2D761BB500DB67AC /* AnaCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E351202D761BB400DB67AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B401602D78C0A800EE471A /* Secrets.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E351302D761BB500DB67AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3513A2D761BB500DB67AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E3511E2D761BB400DB67AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3512E2D761BB500DB67AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E351382D761BB500DB67AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6E351342D761BB500DB67AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E351212D761BB400DB67AC /* AnaCoin */;
+			targetProxy = B6E351332D761BB500DB67AC /* PBXContainerItemProxy */;
+		};
+		B6E3513E2D761BB500DB67AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E351212D761BB400DB67AC /* AnaCoin */;
+			targetProxy = B6E3513D2D761BB500DB67AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6E351442D761BB500DB67AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6E351452D761BB500DB67AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E351472D761BB500DB67AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B4015F2D78C09C00EE471A /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnaCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accborba.AnaCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6E351482D761BB500DB67AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B4015F2D78C09C00EE471A /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnaCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accborba.AnaCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6E3514A2D761BB500DB67AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accborba.AnaCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnaCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnaCoin";
+			};
+			name = Debug;
+		};
+		B6E3514B2D761BB500DB67AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accborba.AnaCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnaCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnaCoin";
+			};
+			name = Release;
+		};
+		B6E3514D2D761BB500DB67AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accborba.AnaCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnaCoin;
+			};
+			name = Debug;
+		};
+		B6E3514E2D761BB500DB67AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.accborba.AnaCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnaCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E3511D2D761BB400DB67AC /* Build configuration list for PBXProject "AnaCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E351442D761BB500DB67AC /* Debug */,
+				B6E351452D761BB500DB67AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E351462D761BB500DB67AC /* Build configuration list for PBXNativeTarget "AnaCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E351472D761BB500DB67AC /* Debug */,
+				B6E351482D761BB500DB67AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E351492D761BB500DB67AC /* Build configuration list for PBXNativeTarget "AnaCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E3514A2D761BB500DB67AC /* Debug */,
+				B6E3514B2D761BB500DB67AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E3514C2D761BB500DB67AC /* Build configuration list for PBXNativeTarget "AnaCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E3514D2D761BB500DB67AC /* Debug */,
+				B6E3514E2D761BB500DB67AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6E351D62D761C5700DB67AC /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+		B6E351D72D761C6100DB67AC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		B6E352402D76456200DB67AC /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.18.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6E351D92D761C7800DB67AC /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6E351D62D761C5700DB67AC /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		B6E351DB2D761C7800DB67AC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6E351D72D761C6100DB67AC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B6E352412D76456900DB67AC /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6E352402D76456200DB67AC /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B6E3511A2D761BB400DB67AC /* Project object */;
+}

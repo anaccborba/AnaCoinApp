@@ -1,0 +1,39 @@
+//
+//  Localizable.strings
+//  AnaCoin
+//
+//  Created by Ana Carolina Camargo Borba on 03/03/25.
+//
+
+//Commons
+"invalid_date" = "Data Inválida";
+
+//SplashView
+"splash_title" = "AnaCoin";
+"splash_subtitle" = "Todas as Exchanges na sua mão";
+
+//ExchangeCell
+"exchange_cell_tag" = "24h";
+
+//ExchangeDetailView
+"exchange_detail_name" = "Nome não disponível";
+"exchange_detail_rank" = "Rank:";
+"exchange_detail_id" = "ID: ";
+"exchange_detail_volume_title" = "Volumes da Exchange:";
+"exchange_detail_volume1h" = "Volume 1h:";
+"exchange_detail_volume24h" = "Volume dia:";
+"exchange_detail_volume1mth" = "Volume mês:";
+"exchange_detail_date_title" = "Datas da Exchange:";
+"exchange_detail_quote_start:" = "Data de início Quote:";
+"exchange_detail_quote_end:" = "Data de fim Quote:";
+"exchange_detail_orderbook_start:" = "Data de início Orderbook:";
+"exchange_detail_orderbook_end:" = "Data de fim Orderbook:";
+"exchange_detail_trade_start:" = "Data de início Trade:";
+"exchange_detail_trade_end:" = "Data de fim Trade:";
+"exchange_detail_website:" = "Website:";
+
+//ErrorView
+"error_occurred" = "Ocorreu um erro";
+"try_again" = "Tentar novamente";
+"error_loading_data" = "Não foi possível carregar os dados.";
+
