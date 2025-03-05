@@ -66,7 +66,7 @@ Para utilizar o aplicativo, você precisa de uma **API Key** da **CoinAPI**.
 1. **Copie o arquivo de exemplo** e renomeie para `Secrets.xcconfig`:  
 
    ```bash
-   cp Secrets.xcconfig.example Secrets.xcconfig
+   cp SecretsExample.xcconfig Secrets.xcconfig
 2. **Abra o arquivo `Secrets.xcconfig`** e adicione sua chave da API:  
 
    ```ini
